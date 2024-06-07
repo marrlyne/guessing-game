@@ -23,6 +23,7 @@ describe("orao-vrf", () => {
 	const treasury = new anchor.web3.PublicKey(
 		"9ZTHWWZDpB36UFe1vszf2KEpt83vwi27jDqtHQ7NSXyR"
 	);
+	
 
 	describe("INITIALIZATION", () => {
 		it("Inits the Randomness account!", async () => {
